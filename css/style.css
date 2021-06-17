@@ -195,6 +195,7 @@ button {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
+/*TEAM*/
 .team-cards {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -213,7 +214,6 @@ button {
   letter-spacing: 0.03em;
   margin: 30px 0px 10px 0px;
 }
-
 .profession {
   font-weight: normal;
   font-size: 16px;
@@ -251,7 +251,13 @@ button {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--text-color);
-
+}
+.icon-list {
+  display: flex;
+  justify-content: center;
+}
+.icon-list:not(:last-child) {
+  margin-right: 10px;
 }
 /* MAIN STYLE*/
 /* FOOTER*/
