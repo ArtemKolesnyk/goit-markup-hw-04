@@ -96,7 +96,6 @@ button {
 }
 /* HEADER STYLES */
 /* MAIN STYLE*/
-
 /* HERO*/
 .section-hero {
   background-image: url("/images/bgheroimg.jpg");
@@ -187,7 +186,8 @@ button {
   letter-spacing: 0.03em;
 }
 .business-title,
-.team-title {
+.team-title,
+.client-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -254,16 +254,47 @@ button {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.icons {
-  width: 44px;
-  height: 44px;
+.icon {
+  fill: #AFB1B8;
+  width: 20px;
+  height: 20px;
+  margin: 12px 12px;
+}
+.icon:hover {
+  fill: var(--color-blue)
 }
 .icon-list {
   display: flex;
   justify-content: center;
 }
-.icon-list:not(:last-child) {
+.icon-list-item {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+.icon-list-item:not(:last-child) {
   margin-right: 10px;
+}
+.client-list {
+  display: flex;
+  justify-content: space-between;
+}
+.client-icon {
+  fill: #AFB1B8;
+  width: 106px;
+  height: 60px;
+  margin: 16px 32px;
+}
+.client-list-item:hover {
+  fill: var(--color-blue);
+}
+.client-list-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 /* MAIN STYLE*/
 /* FOOTER*/
