@@ -74,6 +74,7 @@ button {
   align-items: center;
   height: 16px;
   margin: 32px 0px;
+  padding: 0px;
 }
 .nav-list a:hover,
 .nav-list a:focus,
@@ -87,7 +88,11 @@ button {
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
- .mail-icon {
+.nav-link-item a {
+  display: flex;
+  align-items: center;
+}
+.mail-icon {
   display: inline-block;
   width: 16px;
   height: 12px;
@@ -98,7 +103,6 @@ button {
   fill: var(--color-blue);
 }
 .phone-icon {
-  display: inline-block;
   width: 10px;
   height: 16px;
   margin-right: 10px;
