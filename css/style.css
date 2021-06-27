@@ -377,10 +377,11 @@ button {
 /* FOOTER*/
 .footer {
   background-color: var(--gray-color);
-  padding: 60px 0px 60px 0px;
 }
 .container.footer {
   display: flex;
+  margin: 0px;
+  height: 252px;
 }
 span.logo-white {
   color: var(--color-white);
@@ -391,11 +392,12 @@ span.logo-white {
   height: 81px;
 }
 .address-box {
-  margin-right: 70px;
+  margin: 60px 70px 100px 215px;
 }
 .social-box {
   width: 206px;
   height: 80px;
+  margin: 72px 0px 100px;
 }
 .text-address {
   color: var(--color-white);
@@ -403,6 +405,9 @@ span.logo-white {
 .link-address {
   color: rgba(255, 255, 255, 0.6);
   padding-left: 0px;
+}
+.footer-icon-list {
+  padding: 0px;
 }
 .footer-title {
   display: flex;
@@ -432,47 +437,4 @@ span.logo-white {
   margin-right: 10px;
 }
 /* FOOTER* /
-/* FORM */
-.wrapper-popup {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 100;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.wrapper-popup-open {
-  opacity: 1;
-  pointer-events: none;
-}
-.popup {
-  width: 90%;
-  height: 90%;
-  max-width: 528px;
-  max-height: 581px;
-  background: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  position: relative;
-}
-.close-popup {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  cursor: pointer;
-  text-align: center;
-  line-height: 27px;
-}
-/* FORM */
+
