@@ -415,6 +415,7 @@ span.logo-white {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-white);
+  margin-bottom: 20px;
 }
 .footer-icon-list-item {
   display: flex;
