@@ -380,8 +380,6 @@ button {
 }
 .container.footer {
   display: flex;
-  margin: 0px;
-  height: 252px;
 }
 span.logo-white {
   color: var(--color-white);
@@ -392,7 +390,7 @@ span.logo-white {
   height: 81px;
 }
 .address-box {
-  margin: 60px 70px 100px 215px;
+  margin: 60px 70px 0px 0px;
 }
 .social-box {
   width: 206px;
@@ -410,8 +408,6 @@ span.logo-white {
   padding: 0px;
 }
 .footer-title {
-  display: flex;
-  justify-content: center;
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
